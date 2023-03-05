@@ -8,7 +8,7 @@ const HooksIcecreamsCountainer = (props) => {
   return (
     <>
       <div>
-        <h2>Number of cake - {numberOfIcecreams}</h2>
+        <h2>Number of icecream - {numberOfIcecreams}</h2>
         <button onClick={() => dispatch(buyIcecream())}>buy ice</button>
       </div>
     </>
