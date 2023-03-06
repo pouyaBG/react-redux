@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { buyIcecream } from "../../redux/IceCream/icecreamAction";
+import { buyIcecream } from "../redux/IceCream/icecreamAction";
 
 const HooksIcecreamsCountainer = (props) => {
   const numberOfIcecreams = useSelector((state) => state.icecream.numberOfIcecreams);

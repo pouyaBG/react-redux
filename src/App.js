@@ -1,8 +1,8 @@
 import { Provider } from "react-redux";
 import "./App.css";
-import CakeContainer from "./components/Cake/CakeContainer";
-import HooksCakeCountainers from "./components/Cake/HooksCakeCountainer";
-import HooksIcecreamsCountainer from "./components/Icecream/HooksIcecreamCountainer";
+import CakeWithPayload from "./components/CakeWithPaylout";
+import HooksCakeCountainer from "./components/HooksCakeCountainer";
+import HooksIcecreamsCountainer from "./components/HooksIcecreamCountainer";
 import store from "./redux/store";
 
 function App() {
@@ -10,8 +10,9 @@ function App() {
     <Provider store={store}>
       <div className="App">
         {/* <CakeContainer /> */}
-        <HooksCakeCountainers />
+        <HooksCakeCountainer />
         <HooksIcecreamsCountainer />
+        <CakeWithPayload />
       </div>
     </Provider>
   );

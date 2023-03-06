@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { buyCake } from "../../redux/Cake/cakeActions";
+import { buyCake } from "../redux/Cake/cakeActions";
 
 const HooksCakeCountainer = (props) => {
   const numberOfCakes = useSelector((state) => state.cake.numberOfCakes);
