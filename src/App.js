@@ -3,6 +3,7 @@ import "./App.css";
 import CakeWithPayload from "./components/CakeWithPaylout";
 import HooksCakeCountainer from "./components/HooksCakeCountainer";
 import HooksIcecreamsCountainer from "./components/HooksIcecreamCountainer";
+import UserCountainer from "./components/UserContainer";
 import store from "./redux/store";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <HooksCakeCountainer />
         <HooksIcecreamsCountainer />
         <CakeWithPayload />
+        <UserCountainer />
       </div>
     </Provider>
   );
